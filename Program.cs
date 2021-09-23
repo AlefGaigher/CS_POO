@@ -6,11 +6,7 @@ namespace Aprendendo_c_
     {
         static void Main(string[] args)
         {
-           ContaCorrente contaCorrente = new ContaCorrente();
-           contaCorrente.titular = "Gabriela";
-           contaCorrente.agencia = 856;
-           contaCorrente.numero = 837475;
-           contaCorrente.saldo = 56.4;
+           Cliente gabriela = new Cliente();
         }
     }
 }
